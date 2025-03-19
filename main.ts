@@ -28,7 +28,7 @@ let gap = 0
 let mySprite: Sprite = null
 scene.setBackgroundColor(9)
 info.setScore(0)
-effects.blizzard.startScreenEffect()
+effects.confetti.startScreenEffect()
 mySprite = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
